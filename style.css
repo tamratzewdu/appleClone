@@ -53,6 +53,37 @@ body {
   padding-top: 34px;
 }
 
+/* ========================================================== */
+/* FIFTH SECTION STYLE ( Apple TV+) */
+/* ========================================================== * /
+
+/* left and right side by side*/
+.fifth-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  left side Apple TV+ css  */
+.fifth-section-wrapper .tv-plus-background {
+  background-image: url("./images/home/apple-tv-background.jpg");   
+  background-color: #000;
+  color: #fff; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fifth-section-wrapper .tv-plus-background .logo-wrapper img {
+  max-height: 40px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
 
 /* sixth section left side style (getenet) */
 
