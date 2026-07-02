@@ -95,3 +95,125 @@
     font-size: 0.85px;
 
 }
+*{
+    padding: 0;
+    margin: 0;
+    /* list-style: none;**colour..de */
+}
+
+img{
+    max-width: 100%;
+}
+body{
+     font-family: "Montserrat", sans-serif;
+     font-size: 20px;
+     
+}
+
+.header-wrapper{
+    background-color: black;
+    font-size: 0.75em;
+    /* page75% */
+}
+.link-wrapper ul  {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;   
+      /* 0 for top/bottom, auto for left/right */
+      width: 980px;
+
+}
+
+.link-wrapper ul li a img{
+    width: 18px;
+    
+}
+.link-wrapper ul li {
+     padding: 14px 0 8px;
+     /* to change the dimensions (width or height) of an inline element  */
+}
+.link-wrapper ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    opacity:0.8;
+}
+.link-wrapper ul li a:hover{
+    opacity: 1;
+}
+.links-wrapper ul li a {
+	color: #06c;
+	text-decoration: none;
+}
+.links-wrapper ul li a:hover {
+	color: #000;
+}
+.links-wrapper ul li  {
+	display: inline-block;
+	padding-right: 20px;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.Main{
+    background-color: #FBFBFD;
+}
+
+.internal-wrapper{
+    text-align: center;
+    padding-top: 25px;
+
+}
+.description{
+    font-size: 2em;
+    /* 40px */
+
+}
+.link a{
+    text-decoration: none;
+    color: #06c;
+    padding: 15px 5px ;
+    display: inline-block;
+
+}
+.link a::after{
+    
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+.link a:hover{
+    color:black;
+}
+.internal-wrapper{
+  margin: 0 auto;
+  width: 980px;
+}
+.title-wraper {
+	font-weight: 600;
+	font-size: 56px;	
+}
+.description-wrapper {
+	font-size: 26px;
+	padding: 10px 0;
+}
+.price-wrapper {
+	color: #86868b; 
+	font-size: 0.85em;
+}
+
+/* Third Highlight Section */
+.third-highlight-wrapper {
+	background-image: url("../images/home/iphone11-bg.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+}
+
