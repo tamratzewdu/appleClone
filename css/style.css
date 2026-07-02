@@ -101,7 +101,7 @@ body {
     font-size: 56px;
 
 }
-.discription-wraper{
+.description-wraper{
     font-size: 26px;
     padding: 10px 0;
 }
@@ -135,7 +135,7 @@ body {
 
 /*  left side Apple TV+ css  */
 .fifth-section-wrapper .tv-plus-background {
-  background-image: url("./images/home/apple-tv-background.jpg");   
+  background-image: url("../images/home/apple-tv-background.jpg");   
   background-color: #000;
   color: #fff; 
   background-position: center;
@@ -155,6 +155,7 @@ body {
 
 
 
+
 /* sixth section left side style (getenet) */
 
 .sixth-section-wrapper {
@@ -164,7 +165,7 @@ body {
 }
 
 .sixth-section-wrapper .left-side-wrapper {
-  background-image: url(./images/home/macbook-pro.jpg);
+  background-image: url(../images/home/macbook-pro.jpg);
   color: #000;
   height: 580px;
   background-size: initial;
