@@ -2,28 +2,66 @@
   margin: 0;
   padding: 0;
 }
+
 img {
   max-width: 100%;
 }
+
 /* include font family  with links on html for body tag */
 body {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
 
+/* header style */
+
+header {
+  background-color: #000;
+  padding: 10px;
+
+}
+
+header a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  opacity: 0.8;
+}
+
+header ul li img {
+  width: 18px;
+  display: block;
+}
+
 .links-wrapper ul {
   list-style: none;
 }
+
 .model-wrapper {
   font-size: 0.85em;
 }
+
 .product-wrapper {
   font-weight: 700;
   font-size: 56px;
 }
+
 .highliter-wrapper {
   font-size: 2em;
 }
+
 .links-wrapper {
   padding: 15px 0;
 }
@@ -32,13 +70,16 @@ body {
   display: inline-block;
   padding-right: 20px;
 }
+
 .links-wrapper ul li a {
   text-decoration: none;
   color: #06c;
 }
+
 .links-wrapper ul li a:hover {
   color: #000;
 }
+
 .inner-wrapper ul li {
   opacity: 0.8;
 }
